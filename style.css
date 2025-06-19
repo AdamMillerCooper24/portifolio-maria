@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Edu+SA+Hand:wght@400..700&family=Oswald:wght@200..700&family=Sixtyfour+Convergence&display=swap');
+
+:root {
+
+    --cor-principal: #852d4d ;
+    --cor-secundaria: #741142;
+    --cor-de-destaque: #152683;
+    --cor-fundo: #f8bede ;
+
+}
+
+header{
+
+    background-color : var(--cor-fundo);
+    border-radius: 300px;
+    
+
+}
+
+body{
+
+  font-family: "Edu QLD Hand", cursive;
+  color: var(--cor-principal)
+
+}
+
+h1, h2, h5 {
+
+    color: var(--cor-secundaria);
+    font-weight: 800;
+
+}
+
+
+
+.lead, .btn-link{
+
+    color: var(--cor-de-destaque);
+    font-weight: 700;
+
+}
+
+footer a, .btn-link:hover{
+
+    color: var(--cor-principal);
+
+}
+
+footer a:hover {
+
+    color: var(--cor-de-destaque);
+
+}
